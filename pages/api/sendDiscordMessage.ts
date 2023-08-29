@@ -7,7 +7,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
   const { content } = req.body;
 
-  const discordWebhookUrl = process.env.DISCORD_WEBHOOK_URL;
+  const discordWebhookUrl = process.env.NEXT_PUBLIC_DISCORD_WEBHOOK_URL;
 
   if (!discordWebhookUrl) {
     return res.status(500).json({ error: 'Discord webhook URL is not defined' });
