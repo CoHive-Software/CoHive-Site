@@ -10,7 +10,20 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'CoHive Software',
   description:
-    "Welcome to CoHive Software, a leading software engineering company empowering businesses with cutting-edge technology solutions. Our expert team of software engineers delivers exceptional software development, web development, mobile app development, and cloud services. With a focus on innovation and client satisfaction, we provide tailored solutions that optimize your digital presence, enhance efficiency, and drive growth. Contact us today for reliable, scalable, and secure software engineering services that unlock your business's true potential.",
+    "Welcome to CoHive Software, a leading software engineering company empowering businesses.",
+    openGraph: {
+      type: "website",
+      url: "https://cohivesoftware.com",
+      title: "CoHive Software",
+      description: "Welcome to CoHive Software, a leading software engineering company empowering businesses.",
+      images: 'https://cohivesoftware.com/circleLogo3.svg'
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "CoHive Software",
+      description: "Welcome to CoHive Software, a leading software engineering company empowering businesses.",
+      images: 'https://cohivesoftware.com/circleLogo3.svg'
+    }
 };
 
 export default function RootLayout({
