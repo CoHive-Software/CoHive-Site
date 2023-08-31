@@ -1,5 +1,4 @@
 import { Metadata } from 'next';
-import beeLogoImage from '../public/circleLogo3.svg';
 import { lato, abril } from '../public/fonts';
 import { Abril_Fatface, Lato, Roboto_Mono, Inter } from 'next/font/google';
 import Navigation from './components/navbars/navigation';
