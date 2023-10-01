@@ -42,9 +42,9 @@ export default function DeskNav({ isNavHidden }) {
                 <li className='mx-12'>
                   <Link href='/blog'>blog</Link>
                 </li> */}
-                <li>
+                {/* <li>
                   <Link href='#contact'>Contact Us</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
