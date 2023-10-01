@@ -13,7 +13,7 @@ export default function ServiceCard({ title, description, logoURL }: ServiceCard
       <h3 className="text-white text-lg font-light justify-self-start mt-3 w-3/5">{title}</h3>
       <p className="text-white font-light">{description}</p>
       <div className='mt-auto'>
-        <SmallContactUsButton />
+        {/* <SmallContactUsButton /> */}
       </div>
     </div>
   );
