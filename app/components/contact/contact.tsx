@@ -64,7 +64,6 @@ export default function Contact() {
 
   return (
     <div id='contact' className='flex flex-col'>
-      <h1 className='mx-1 mb-3 text-2xl font-light tracking-widest'>Contact Us</h1>
       <div className='flex flex-row justify-between'>
         <form className='flex flex-col w-full xl:w-7/12 text-pearl' onSubmit={handleSubmit}>
           <div className='flex flex-col md:flex-row'>

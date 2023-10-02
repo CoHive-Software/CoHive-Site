@@ -24,13 +24,14 @@ export default function Footer() {
                   width={64}
                   height={64}
                 />
-                <Image
+                {/* <Image
                   className='ml-2'
                   src='/CoHiveWhiteText.svg'
                   alt='CoHiveName'
                   width={150}
                   height={28}
-                />
+                /> */}
+                <h2 className='text-3xl'>Contact Form</h2>
               </Link>
             </div>
           </div>
@@ -49,9 +50,9 @@ export default function Footer() {
           </div> */}
         </div>
         <Contact />
-        <div className='flex justify-between xl:justify-around items-center text-xl py-3 my-2'>
-          <div className='text-xs'>All Rights Reserved</div>
-          <div className='flex items-center'>
+        {/* <div className='flex justify-between xl:justify-around items-center text-center text-xl py-3 my-2'> */}
+          <div className='text-xs text-center py-3 my-2'>© 2023 CoHive. All Rights Reserved</div>
+          {/* <div className='flex items-center'>
             <ul className='list-none flex'>
               <li>
                 <a href='https://www.linkedin.com/company/cohive-software/'>
@@ -64,8 +65,8 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-          </div>
-        </div>
+          </div> */}
+        {/* </div> */}
       </div>
     </footer>
   );
